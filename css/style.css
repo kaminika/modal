@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+/* Modal */
+
+
+.modal {
+    position: fixed;
+    background-color: rgba(144, 238, 144, 0.4);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  /*   display: none; */
+}
+
+.modal.visible {
+    display: flex;
+}
+
+
+.modal .modal-inner {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+}
